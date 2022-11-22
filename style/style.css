@@ -1,0 +1,38 @@
+
+#about {
+  background: linear-gradient(92.9deg, #1e5aca 0.28%, #3078f2 102.75%);
+  padding: 4em 10em;
+  color: white;
+}
+#about .title {
+  font-weight: bold;
+  font-size: 40px;
+  width: 80%;
+}
+#pricing {
+  padding: 4em 10em;
+}
+.price {
+  cursor: pointer;
+  color: #234cad;
+  transition: all 0.2s ease;
+  border: 1px solid #234cad;
+}
+.price button {
+  color: #234cad;
+  border: 1px solid #234cad;
+  background: none;
+  transition: all 0.2s ease;
+}
+.price:hover {
+  background: #6494ff;
+  color: white;
+  border: 1px solid #ffffff;
+}
+.price:hover button {
+  color: white;
+  border: 1px solid white;
+  border: none;
+  background: white;
+  color: #234cad;
+}
